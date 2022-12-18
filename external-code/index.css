@@ -89,16 +89,13 @@ a:active {
     margin-bottom: -1rem;
 }
 
-.atu-socials {
-    text-align: center;
-}
-
-.atu-socials>p:first-child {
+.atu-socials>a>img {
     margin-top: 1rem;
 }
 
-.atu-socials>p:last-child {
-    margin-top: -2rem;
+.atu-socials>span {
+    margin-top: 1.5rem;
+    float: right;
 }
 
 /* Footer */
