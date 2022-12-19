@@ -65,8 +65,7 @@ a:active {
 }
 
 .faq .explaining-the-dangers-of-tiktok {
-    border: solid 0.1rem;
-    border-radius: 1rem;
+    text-align: center;
 }
 
 #faq-desktop,
@@ -104,9 +103,9 @@ a:active {
     margin-bottom: 2.5rem;
 }
 
-
 #faq-desktop .explaining-the-dangers-of-tiktok {
-    text-align: center;
+    border: solid 0.1rem;
+    border-radius: 1rem;
 }
 
 #faq-desktop .explaining-the-dangers-of-tiktok>summary {
@@ -124,11 +123,6 @@ a:active {
 
 #faq-desktop .atu-socials>a>img {
     margin-top: 1rem;
-}
-
-#faq-desktop .atu-socials>span {
-    margin-top: 1.5rem;
-    float: right;
 }
 
 #faq-mobile,
@@ -234,7 +228,6 @@ footer>p {
 
     #faq-mobile h4 {
         font-size: 1.55rem;
-        /* font-weight: bold; */
     }
 
     #faq-mobile p {
@@ -257,7 +250,11 @@ footer>p {
     }
 
     #faq-mobile .explaining-the-dangers-of-tiktok {
+        border-style: solid;
+        border-width: 0.01rem 0;
+        border-radius: 0.175rem;
         margin-bottom: 0.5rem;
+        padding: 1rem 0;
     }
 
     #faq-mobile .explaining-the-dangers-of-tiktok>summary {
@@ -287,11 +284,6 @@ footer>p {
 
     #faq-mobile .atu-socials>p:first-child {
         margin-top: 0.75rem;
-    }
-
-    #faq-mobile .atu-socials>p>span {
-        margin-top: .5rem;
-        font-size: 1.25rem;
     }
 
     /* Footer */
