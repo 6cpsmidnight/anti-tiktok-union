@@ -15,7 +15,8 @@ p {
     font-size: 1.5rem;
 }
 
-a {
+a,
+hr {
     color: #ffffff;
 }
 
@@ -64,10 +65,6 @@ a:active {
     border-radius: 1.6rem .8rem;
 }
 
-.faq .explaining-the-dangers-of-tiktok {
-    text-align: center;
-}
-
 #faq-desktop,
 #faq-desktop * {
     opacity: 1;
@@ -106,6 +103,7 @@ a:active {
 #faq-desktop .explaining-the-dangers-of-tiktok {
     border: solid 0.1rem;
     border-radius: 1rem;
+    text-align: center;
 }
 
 #faq-desktop .explaining-the-dangers-of-tiktok>summary {
@@ -212,7 +210,7 @@ footer>p {
     }
 
     #faq-mobile {
-        padding: 0 7.5%;
+        padding: 0 5%;
     }
 
     #faq-mobile>h2 {
@@ -236,8 +234,12 @@ footer>p {
     }
 
     #faq-mobile details {
-        padding: 1rem 1rem;
+        padding: 0.75rem 0.75rem;
         margin-bottom: 2.5rem;
+    }
+
+    #faq-mobile details>p {
+        margin-top: 0.5rem;
     }
 
     #faq-mobile details>summary {
@@ -245,24 +247,26 @@ footer>p {
         cursor: pointer;
     }
 
-    #faq-mobile details>p {
-        margin-top: 0.5rem;
-    }
-
     #faq-mobile .explaining-the-dangers-of-tiktok {
         border-style: solid;
-        border-width: 0.01rem 0;
-        border-radius: 0.175rem;
+        border-width: 0;
+        border-radius: .5rem;
         margin-bottom: 0.5rem;
-        padding: 1rem 0;
+        padding: 1rem 0 0 0;
     }
 
     #faq-mobile .explaining-the-dangers-of-tiktok>summary {
         font-size: 1.25rem;
+        text-align: center;
     }
 
     #faq-mobile .explaining-the-dangers-of-tiktok-div {
         padding-top: 1.5rem;
+    }
+
+    #faq-mobile .explaining-the-dangers-of-tiktok-div>h3:first-of-type:first-child,
+    #faq-mobile .explaining-the-dangers-of-tiktok-div>p:first-of-type {
+        text-align: center;
     }
 
     #faq-mobile .explaining-the-dangers-of-tiktok-div>h4 {
